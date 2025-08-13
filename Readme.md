@@ -3,7 +3,8 @@
 ![Project Thumbnail](assets/images/Tham.png)
 
 [![YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://youtu.be/QW97JJklBEs?feature=shared)
-[![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/rameshwaryadav/employee-atttendance-management-system)
+[![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](git@github.com:rameshwaryadav/employee-attendance-management-system.git
+)
 
 
 
