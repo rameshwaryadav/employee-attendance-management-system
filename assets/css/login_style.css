@@ -1,0 +1,92 @@
+/* ===== MASTER CSS FOR BOTH LOGIN PAGES (DARK THEME) ===== */
+
+/* General Body and Font Styling */
+body.login-page-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a2c47; /* Blue-Black Background */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Login Form Container */
+.login-container {
+    padding: 40px;
+    background: #1f3655; /* Dark Card Background */
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-top: 5px solid #0d6efd; /* Blue border upar */
+    border: 1px solid #2c3e50;
+}
+
+/* Form ka Title (h2) */
+.login-form h2 {
+    font-size: 2rem;
+    color: #ffffff; /* White Text */
+    margin-bottom: 10px;
+}
+
+/* Form ka Subtitle (p) */
+.login-form p {
+    color: #bdc3c7; /* Light Grey Text */
+    margin-bottom: 30px;
+}
+
+/* Input Fields ke liye */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #bdc3c7; /* Light Grey Text */
+    font-weight: 500;
+}
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2c3e50; /* Dark Border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #1a2c47; /* Dark Input Background */
+    color: #ffffff; /* White Text */
+    transition: border-color 0.3s;
+}
+.input-group input:focus {
+    border-color: #0d6efd; /* Click karne par neela border */
+    outline: none;
+}
+
+/* Login Button */
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: #0d6efd; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.btn-login:hover {
+    background-color: #0b5ed7;  
+}
+
+/* Error Message */
+.error-message {
+    background-color: rgba(231, 76, 60, 0.1);
+    color: #e74c3c; 
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

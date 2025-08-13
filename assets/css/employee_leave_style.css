@@ -1,0 +1,21 @@
+/* ===== DARK THEME CSS FOR EMPLOYEE LEAVE PAGE ===== */
+body.employee-body { font-family: 'Poppins', sans-serif; margin: 0; background-color: #1a2c47; display: flex; }
+.sidebar { width: 250px; background: #1f3655; border-right: 1px solid #2c3e50; height: 100vh; position: fixed; padding: 20px; box-sizing: border-box; }
+.sidebar-header { text-align: center; margin-bottom: 30px; }
+.sidebar-header .profile-pic { width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px; border: 3px solid #3498db; }
+.sidebar-header h3 { font-size: 1.2rem; color: #ffffff; margin: 0; }
+.sidebar-header p { font-size: 0.9rem; color: #bdc3c7; margin: 5px 0 0; }
+.sidebar-nav ul { list-style: none; padding: 0; }
+.sidebar-nav ul li a { display: flex; align-items: center; color: #bdc3c7; text-decoration: none; padding: 14px 20px; border-radius: 8px; margin-bottom: 8px; font-weight: 500; transition: all 0.3s ease; }
+.sidebar-nav ul li a .icon { margin-right: 15px; font-size: 1.1rem; width: 20px; text-align: center; }
+.sidebar-nav ul li a:hover { background: #2c3e50; color: #ffffff; }
+.sidebar-nav ul li a.active { background: #0d6efd; color: white; }
+.main-content { margin-left: 250px; flex-grow: 1; padding: 25px; }
+.page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; margin-bottom: 25px; border-bottom: 1px solid #2c3e50; }
+.page-header h1 { font-size: 1.8rem; color: #ffffff; margin: 0; }
+.btn-primary { background-color: #0d6efd; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 0.9rem; font-weight: 500; }
+.content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 25px; }
+.content-container { background: #1f3655; padding: 25px; border-radius: 8px; border: 1px solid #2c3e50; }
+.content-container h2 { margin-top: 0; color: #ffffff; border-bottom: 1px solid #2c3e50; padding-bottom: 15px; }
+.data-table { width: 100%; border-collapse: collapse; color: #bdc3c7; }
+.dat

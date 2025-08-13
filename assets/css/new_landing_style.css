@@ -1,0 +1,188 @@
+
+:root {
+    --primary-color: #0d6efd;
+    --dark-bg-1: #1a2c47;
+    --dark-bg-2: #1f3655;
+    --text-color-light: #ffffff;
+    --text-color-grey: #bdc3c7;
+    --border-color: #2c3e50;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--dark-bg-1);
+    color: var(--text-color-grey);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+.btn-primary-solid {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 14px 35px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+.btn-primary-solid:hover {
+    background-color: #0b5ed7;
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+..logo {
+    
+    display: block; 
+    text-decoration: none;
+}
+
+.logo img {
+    height: 130px;
+    width: auto;
+    display: blo
+}
+
+/* === HEADER KI STYLING YAHAN THEEK KI GAYI HAI === */
+.header-right-side {
+    display: flex;
+    align-items: center;
+}
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.main-nav ul li {
+    margin: 0 10px; /* Space kam kar di gayi hai */
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: var(--text-color-grey);
+    font-weight: 500;
+}
+.main-nav ul li a:hover {
+    color: white;
+}
+.header-right-side .btn-primary {
+    margin-left: 20px;
+}
+/* === HEADER STYLING YAHAN KHATM HOTI HAI === */
+ 
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    min-height: 80vh;
+}
+.hero-text { flex: 1; }
+.hero-text h1 { font-size: 3.0rem; color: var(--text-color-light); line-height: 1.2; margin-bottom: 20px; }
+.hero-text p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 30px; }
+.hero-image { flex: 1; text-align: right; }
+.hero-image img { max-width: 100%; opacity: 0.9; }
+
+/* Features Section */
+.features-section {
+    background-color: var(--dark-bg-2);
+    padding: 80px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.section-title { text-align: center; margin-bottom: 50px; }
+.section-title h2 { font-size: 2.5rem; color: var(--text-color-light); }
+.section-title p { color: var(--text-color-grey); }
+.features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.feature-card { background-color: var(--dark-bg-1); padding: 30px; text-align: center; border-radius: 8px; border: 1px solid var(--border-color); }
+.feature-card .icon-bg { font-size: 2rem; color: var(--primary-color); background-color: var(--dark-bg-2); width: 60px; height: 60px; line-height: 60px; border-radius: 50%; display: inline-block; margin-bottom: 20px; }
+.feature-card h3 { font-size: 1.4rem; color: var(--text-color-light); }
+
+.main-footer {
+    padding: 60px 0 20px 0;
+    background-color: var(--dark-bg-1);
+    color: var(--text-color-grey);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Responsive ke liye */
+    gap: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.footer-about {
+    flex-basis: 50%; /* Left side ko zyada jagah dega */
+}
+
+.footer-logo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    margin: 0;
+    max-width: 400px;
+    line-height: 1.7;
+}
+
+.footer-connect h3 {
+    font-size: 1.2rem;
+    color: var(--text-color-light);
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--dark-bg-2);
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px); /* Hover par halka sa upar uthega */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+}

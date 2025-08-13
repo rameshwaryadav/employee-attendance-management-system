@@ -1,0 +1,94 @@
+/* ===== COMPLETE CSS FOR ADMIN LOGIN & DASHBOARD ===== */
+
+/* Login Page Styling */
+.login-page-body {
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; background: #f0f2f5; font-family: 'Poppins', sans-serif;
+}
+.login-container { padding: 40px; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border-radius: 10px; width: 100%; max-width: 400px; text-align: center; }
+.login-form h2 { font-size: 2rem; color: #1a2c47; margin-bottom: 10px; }
+.login-form p { color: #6c757d; margin-bottom: 30px; }
+.input-group { margin-bottom: 20px; text-align: left; }
+.input-group label { display: block; margin-bottom: 8px; color: #343a40; font-weight: 500; }
+.input-group input { width: 100%; padding: 12px; border: 1px solid #ced4da; border-radius: 5px; box-sizing: border-box; font-size: 1rem; }
+.btn-login { width: 100%; padding: 15px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: background-color 0.3s; }
+.btn-login:hover { background-color: #0056b3; }
+.error-message { background-color: #dc3545; color: white; padding: 10px; border-radius: 5px; margin-bottom: 20px; }
+
+/* Dashboard Body Style */
+.dashboard-body {
+    display: flex;
+    background-color: #f4f7fa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 260px;
+    background: #2c3e50;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar-header h3 { text-align: center; margin: 10px 0 30px; font-size: 1.5rem; }
+.sidebar-nav ul { list-style: none; padding: 0; }
+.sidebar-nav ul li a { display: flex; align-items: center; color: #bdc3c7; text-decoration: none; padding: 15px; border-radius: 8px; margin-bottom: 10px; transition: all 0.3s; }
+.sidebar-nav ul li a .icon { margin-right: 15px; font-size: 1.2rem; width: 20px; text-align: center; }
+.sidebar-nav ul li a:hover, .sidebar-nav ul li a.active { background: #3498db; color: white; }
+
+/* Main Content Area Styling */
+.main-content {
+    margin-left: 260px;
+    flex-grow: 1;
+    padding: 30px;
+}
+.main-content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+.header-title { font-size: 1.5rem; color: #2c3e50; font-weight: 600; }
+.btn-logout { background-color: #e74c3c; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.3s; }
+.btn-logout:hover { background-color: #c0392b; }
+
+/* Dashboard Overview Section */
+.dashboard-overview h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.card .card-icon { font-size: 2.2rem; padding: 20px; border-radius: 50%; margin-right: 20px; }
+.card .card-info h3 { margin: 0 0 5px; font-size: 2rem; color: #2c3e50; }
+.card .card-info p { margin: 0; color: #7f8c8d; }
+
+/* Card Colors */
+.card-icon.icon-users { background-color: #e8f4fd; color: #3498db; }
+.card-icon.icon-building { background-color: #e9f9f0; color: #2ecc71; }
+.card-icon.icon-leave { background-color: #fef5e7; color: #f39c12; }
+.card-icon.icon-check { background-color: #fde8e8; color: #e74c3c; }
